@@ -4,6 +4,16 @@ const Ollama: ModelProviderCard = {
   chatModels: [
     {
       description:
+        'Llama 3.2-vision',
+      displayName: 'Llama 3.2-vision 11b',
+      enabled: true,
+      functionCall: true,
+      id: 'llama3.2-vision',
+      tokens: 128_000,
+      vision: true,
+    },
+    {
+      description:
         'Llama 3.1 是 Meta 推出的领先模型，支持高达 405B 参数，可应用于复杂对话、多语言翻译和数据分析领域。',
       displayName: 'Llama 3.1 8B',
       enabled: true,
