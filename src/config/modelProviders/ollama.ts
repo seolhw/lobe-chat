@@ -3,14 +3,29 @@ import { ModelProviderCard } from '@/types/llm';
 const Ollama: ModelProviderCard = {
   chatModels: [
     {
-      description:
-        'Llama 3.2-vision',
+      description: 'Llama 3.2-vision',
       displayName: 'Llama 3.2-vision 11b',
       enabled: true,
       functionCall: true,
       id: 'llama3.2-vision',
       tokens: 128_000,
       vision: true,
+    },
+    {
+      description: 'Llama 3.2-3b',
+      displayName: 'Llama 3.2-3b',
+      enabled: true,
+      functionCall: true,
+      id: 'llama3.2',
+      tokens: 128_000,
+    },
+    {
+      description: 'Llama 3.2-1b',
+      displayName: 'Llama 3.2-1b',
+      enabled: true,
+      functionCall: true,
+      id: 'llama3.2:1b',
+      tokens: 128_000,
     },
     {
       description:
